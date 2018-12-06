@@ -1,0 +1,19 @@
+docker pull ubuntu
+docker images
+docker run -it ubuntu
+exit
+docker run -it ubuntu
+ctrl+p+q
+docker ps
+docker attach cid
+exit
+docker stop cid
+docker start cid
+docker run -itd ubuntu
+docker ps
+
+docker rm cid (must be docker container in stop)
+docker rm -f cid
+
+docker rmi image-name
+docker rmi -f iid
